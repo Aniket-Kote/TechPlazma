@@ -16,6 +16,7 @@
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
             integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="crossorigin="anonymous"
             referrerpolicy="no-referrer" />
+            <link rel="shortcut icon" href="images/faviconTP.png" type="image/x-icon">
     </head>
     <body>
         <!-- Header start -->
@@ -189,28 +190,34 @@
 
             <!-- Contact us  -->
             <section class="contactSections" id="contactus">
-                <h2 class="sectiontitle">Conatct Us</h2>
+                <h2 class="sectiontitle">Contact Us</h2>
                 <hr class="divider" />
 
                 <div class="contactSection_data">
                     <div class="sectionContent contactcontent">
-                        <form action="">
+                        <form action="" id="formsubmission" method="post">
                             <label for="Name" class="form-label">Name</label><br>
-                            <input type="text" class="contactInput"><br>
+                            <input type="text" class="contactInput"
+                                id="username" placeholder="Enter Name"><br>
                             <label for="Email Address" class="form-label">Email
                                 Address</label><br>
-                            <input type="text" class="contactInput"><br>
+                            <input type="text" class="contactInput"
+                                id="emailid"
+                                placeholder="Enter Email id"><br>
 
                             <label for="Contact Number" class="form-label">Contact
                                 Number</label><br>
-                            <input type="text" class="contactInput"><br>
+                            <input type="number" class="contactInput"
+                                id="contactNumber" placeholder="Enter Contact Number"><br>
 
                             <label for="Your Message" class="form-label">Your
                                 Message</label><br>
-                            <input type="text" class="contactInput"><br>
+                            <input type="text" class="contactInput" id="message"
+                                placeholder="Enter your message"><br>
 
-                            <input type="submit" value="Submit" class="btn
+                            <input type="submit" value="Submit " class="btn
                                 btn-primary submitbtn">
+                            <p class="error"></p>
                         </form>
                     </div>
 
@@ -270,6 +277,7 @@
             <!-- Footer end -->
         </body>
     </html>
+    <script src="js/script.js"></script>
     <script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
