@@ -12,6 +12,10 @@
             rel="stylesheet"
             integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
             crossorigin="anonymous">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+            integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="crossorigin="anonymous"
+            referrerpolicy="no-referrer" />
     </head>
     <body>
         <!-- Header start -->
@@ -34,10 +38,10 @@
                             style="margin-left:auto;margin-right:10%;">
                             <li class="nav-item m-2">
                                 <a class="nav-link" aria-current="page"
-                                    href="#heroSection">Home</a>
+                                    href="#home">Home</a>
                             </li>
                             <li class="nav-item m-2">
-                                <a class="nav-link" href="#ServicesSection">Services</a>
+                                <a class="nav-link" href="#services">Services</a>
                             </li>
 
                             <li class="nav-item m-2">
@@ -45,7 +49,7 @@
                             </li>
 
                             <li class="nav-item m-2">
-                                <a class="nav-link" href="#">Contact Us</a>
+                                <a class="nav-link" href="#conact">Contact Us</a>
                             </li>
                         </ul>
 
@@ -57,10 +61,10 @@
 
 
         <!-- Main start -->
-        <main >
+        <main>
             <!-- hero start -->
-            <section class="heroSection" id="heroSection">
-            
+            <section class="heroSection" id="home">
+
                 <img src="./images/Hero.png" alt="HeroIllus" class="HeroIllus">
                 <div class="heroContentData">
                     <h2 class="sectiontitle heroTitle">The client’s best
@@ -85,14 +89,14 @@
                 <hr class="divider" />
                 <div class="aboutSection_data">
                     <div class="sectionContent aboutcontent">
-                        Tech plasma is a technology consultancy and IT company
-                        with more than 2 years of experience. As a technology
-                        company, we discover solutions for the industry's most
-                        complex and wide-reaching problems. We're always looking
-                        for new ways to interact with emerging technologies too.
-                        Whether it's exploration, development, or the newest
-                        techniques in programming and software,we're always up
-                        to something massive.
+                        Tech plasma is an IT company with more than 2 years of
+                        experience. As a technology company, we discover
+                        solutions for the industry's most complex and
+                        wide-reaching problems. We're always looking for new
+                        ways to interact with emerging technologies too. Whether
+                        it's exploration, development, or the newest techniques
+                        in programming and software,we're always up to something
+                        massive.
                         Our brightest minds are always delving deep into what's
                         next - exploring what's never been seen before. A
                         company committed to innovation and uncompromising
@@ -107,7 +111,7 @@
             </section>
             <!-- about us end -->
             <!-- Services start -->
-            <section class="servicesSection" id="ServicesSection">
+            <section class="servicesSection" id="services">
                 <h2 class="sectiontitle">Services</h2>
                 <hr class="divider" />
 
@@ -183,20 +187,92 @@
 
             <!-- services end -->
 
+            <!-- Contact us  -->
+            <section class="contactSections" id="contactus">
+                <h2 class="sectiontitle">Conatct Us</h2>
+                <hr class="divider" />
+
+                <div class="contactSection_data">
+                    <div class="sectionContent contactcontent">
+                        <form action="">
+                            <label for="Name" class="form-label">Name</label><br>
+                            <input type="text" class="contactInput"><br>
+                            <label for="Email Address" class="form-label">Email
+                                Address</label><br>
+                            <input type="text" class="contactInput"><br>
+
+                            <label for="Contact Number" class="form-label">Contact
+                                Number</label><br>
+                            <input type="text" class="contactInput"><br>
+
+                            <label for="Your Message" class="form-label">Your
+                                Message</label><br>
+                            <input type="text" class="contactInput"><br>
+
+                            <input type="submit" value="Submit" class="btn
+                                btn-primary submitbtn">
+                        </form>
+                    </div>
+
+                    <img src="./images/contactIllus.png" alt="about"
+                        class="contactIllus">
+
+                </div>
+            </section>
+            <!-- Contact us ends -->
         </main>
         <!-- Main end -->
 
 
         <!-- Footer Start -->
         <footer>
+            <img src="./images/TechPlazmaLogo.png" alt=""
+                class="techplazmaLogofooter">
+            <div class="footer-main">
 
-        </footer>
-        <!-- Footer end -->
-    </body>
-</html>
-<script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
-<script
-    src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+                <div class="footer-comp">
+                    <div class="footer-title">Address</div>
+                    <div class="footer-content">Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit ut aliquam</div>
+                </div>
+                <div class="footer-comp">
+                    <div class="footer-title">Conact Us</div>
+                    <div class="footer-content">
+
+                        <a href="mailTo:support@techplazma.com">support@techplazma.com</a>
+                        <br>
+                        <a href="tel:+918754279027">+91 8754279027</a>
+
+                    </div>
+                </div>
+                <div class="footer-comp">
+                    <div class="footer-title">Follow Us</div>
+                    <div class="footer-content social-media">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-comp">
+                    <div class="footer-title">Legal</div>
+                    <div class="footer-content">
+
+                        <a href="#">Privacy Policy</a><br>
+                        <a href="#">Terms & Conditions</a>
+
+                    </div>
+                </div>
+            </div>
+            <hr/>
+                <p class="copyrightSection">Copyright &copy; 2022 TechPlazma</p>
+            </footer>
+            <!-- Footer end -->
+        </body>
+    </html>
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script
+        src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
